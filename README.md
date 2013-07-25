@@ -37,3 +37,6 @@ Say, we want to update element `i` to the value `x`. We retrieve the element `i`
 
 ### Time complexity
 Both query and update is `O(log n)`. The proof is left as an exercise for the reader :)
+
+## Further reading
+[Segment Trees on Wikipedia](http://en.wikipedia.org/wiki/Segment_tree)
