@@ -17,8 +17,9 @@ What if, however, we have an equal amount of queries and updates?
 ## Data structure
 * Every leaf in the tree coreponds to an element `a[i]`
 * Every internal node contains the sum of its children and the range of `a` it covers
-    
+<pre>    
           28
        17   11
      5   13   11
     1 4 5  8 8  3
+</pre>
