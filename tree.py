@@ -18,10 +18,8 @@ class SegmentTree(object):
 
     def _construct_node(self, range):
         if range.size() < 1:
-            """ Base case, we have 2 or less points! """
             return Node.leaf(range, range.sum(self._points))
         else:
-            """ General case, we have more than 2 points, recurse! """
             return self._construct_internal_node(range)
 
     def _construct_internal_node(self, range):
